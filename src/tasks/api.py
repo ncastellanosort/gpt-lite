@@ -2,7 +2,6 @@ from openai import OpenAI
 from src.models.prompt_model import UserPrompt, ChatResponse
 from src.config import API_KEY
 from src.workers.celery_app import celery
-from celery import shared_task
 
 client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com")
 

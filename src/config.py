@@ -4,3 +4,4 @@ load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 REDIS_URL = os.getenv("REDIS_URL")
+POSTGRES_URL = os.getenv("POSTGRES_URL")

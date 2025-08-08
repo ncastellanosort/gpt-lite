@@ -4,3 +4,4 @@ dotenv
 celery
 redis
 openai
+psycopg2
